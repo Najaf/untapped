@@ -1,3 +1,48 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+defaultContentLanguage = "en"
+title = "Untapped"
+theme = "cupper"
+googleAnalytics = ""
+disqusShortname = ""
+enableGitInfo = true
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:filename/"
+
+[imaging]
+  quality = 99
+
+[params]
+  description = "A blog about learning Brazilian Jiu Jitsu in Sendai, Japan"
+  homeMetaContent = "A blog about learning Brazilian Jiu Jitsu in Sendai, Japan"
+  footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat = "Jan 2, 2006"
+  codePenUser = ""
+  katex = false
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.nav]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+  [[menu.nav]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
