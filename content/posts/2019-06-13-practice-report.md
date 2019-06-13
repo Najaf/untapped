@@ -3,6 +3,13 @@ title: "June 12th 2019 Practice Report"
 date: 2019-06-12T22:52:37+09:00
 draft: false
 tags: practice-reports
+twitter:
+  card: "summary_large_image"
+  site: "@alinajaf"
+  creator: "@alinajaf"
+  title: "June 12th 2019 Practice Report"
+  description: "Ezekiels, triangle chokes, guard passes, and lot's of blood"
+  image: "https://competent-tesla-fbda39.netlify.com/me-morgan.jpg"
 ---
 
 ![Me and Morgan sparring](/me-morgan.jpg)
